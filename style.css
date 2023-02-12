@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #f0f8fd;
+  background-color: #ded6f8;
 }
 
 /* Main Page */
@@ -510,9 +510,10 @@ body {
   grid-template-rows: repeat(2, min-content);
   padding-top: 6.5rem;
   width: 1200px;
-  left: 35px;
+  left: 250px;
   top: 20px;
   position: absolute;
+  border-radius: 50%;
 }
 
 .feeds-header {
@@ -545,7 +546,7 @@ body {
   justify-content: normal;
   padding: 1rem;
   border-bottom: 0.1rem solid rgb(238, 238, 238);
-  width: 1600px;
+  width: 1200px;
 }
 
 .header-img-wrapper {
@@ -631,7 +632,6 @@ body {
 
 .post-img {
   position: relative;
-  left: 10%;
   width: 100rem;
   height: 30rem;
 }
